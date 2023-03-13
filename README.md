@@ -1,5 +1,7 @@
 # Terminal_Clock
+*V1.0.0*
 A ASCII art style Terminal Clock screen saver
+
 
 ![Example:](ScreenShot.png)
 
