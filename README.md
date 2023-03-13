@@ -6,7 +6,7 @@ A ASCII art style Terminal Clock screen saver
 ## Install:
 
 1. Clone Repo
-'git clone github.com/Alottachairs/Terminal_Clock'
+`git clone github.com/Alottachairs/Terminal_Clock`
 
 2. Install Python
 
