@@ -11,7 +11,7 @@ A ASCII art style Terminal Clock screen saver
 2. Install Python (if you dont already)
 
 3. Install modules:
-`pip install pyfiglet` and if on windows, also install `windows-curses`
+`pip install pyfiglet` and if on windows, also run `pip install windows-curses`
 
 4. run
 `python main.py` or `python3 main.py`
