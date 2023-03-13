@@ -1,6 +1,6 @@
 from curses import *
 from datetime import datetime
-import time
+import curses
 from pyfiglet import figlet_format
 
 def main(stdscr):
@@ -15,7 +15,7 @@ def main(stdscr):
         current_time = now.strftime("%H:%M:%S")
         stdscr.addstr(f'{figlet_format(current_time)}  \n', color_pair(1))
         stdscr.addstr('Ctrl + C to exit')
-        time.sleep(1)
+        curses.napms(1000)
         stdscr.refresh()
         tick()
     
